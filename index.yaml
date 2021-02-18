@@ -3,6 +3,16 @@ entries:
   yace:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-02-18T08:28:58.287566568Z"
+    description: A Helm chart for YACE
+    digest: 0d2e816bd0f80c26ed70ae18aed61ce709ad04f7f19309654661558b4b31bc6e
+    name: yace
+    type: application
+    urls:
+    - https://github.com/lablabs/yet-another-cloudwatch-exporter/releases/download/yace-0.1.2/yace-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-02-01T11:32:23.448465649Z"
     description: A Helm chart for YACE
     digest: aa7cedea8c01981f866ad2ce3a2a03d3ae03f17faa30488ecebb860ff9625d14
