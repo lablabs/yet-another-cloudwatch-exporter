@@ -33,6 +33,7 @@ spec:
           command:
             - "yace"
             - "--config.file=/etc/yace/config.yml"
+            - "--scraping-interval={{ .Values.scrapingInterval }}"
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"

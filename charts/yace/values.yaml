@@ -69,3 +69,5 @@ tolerations: []
 affinity: {}
 
 config: {}
+
+scrapingInterval: 300
